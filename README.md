@@ -66,22 +66,22 @@ The project has actually 2 parts:
 
 Before starting, make sure you have the folowing tools installed and working in your computer:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-It's also strongly recommended that you have some professional code editor or IDE, such as [VSCode](https://code.visualstudio.com/) or [Eclipse](https://www.eclipse.org/downloads/), a test software, like [Postman](https://www.postman.com/) and a relational data base manager sfotware, like [MySql](https://www.mysql.com/)
+It's also strongly recommended that you have some professional code editor or IDE, such as [VSCode](https://code.visualstudio.com/) or [Eclipse](https://www.eclipse.org/downloads/), a test software, like [Postman](https://www.postman.com/) and a relational data base manager software, like Workbench [MySql](https://www.mysql.com/)
 
 
 <h3 id="running-back-end" align="left">Running the Back End</h3>
 
 ```bash
 
-# Clone este repositório
-$ git clone https://github.com/laroreis/blogPessoal.git
+# Clone this repository
+$ git clone https://github.com/yurikgs/Project_BlogPessoal-Generation.git
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project main folder in terminal/cmd
 $ cd blogPessoal
 
-# Instale as dependências 
-$ pelo site https://start.spring.io/
-$ Ou compare pela pasta https://github.com/laroreis/blogPessoal/blob/main/blogPessoal/blogPessoal/pom.xml
+# Install all dependencies
+$ on site https://start.spring.io/
+$ Verify each one in https://github.com/laroreis/blogPessoal/blob/main/blogPessoal/blogPessoal/pom.xml
 
 # Altere as informações do banco de dados 
 $ application.properties
