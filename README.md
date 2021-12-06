@@ -2,9 +2,10 @@
 	
  ![image](https://user-images.githubusercontent.com/38916533/144778112-b36eab6a-34ec-477b-bcb4-c8194a9590c8.png)
   <h1 align="center"> Blog Pessoal - <i>Generation Brazil</i> </h1>
-  <h2 id="status" align="center"> 
-  🚀<b><a href="#status">Coming soon...</a></b>🚀
-</h2>
+  <p align="center"><b>Status:<b/></p>
+  <h3 id="status" align="center">
+  🚀<b><a href="#status">Working on it... Coming soon!</a></b>🚀
+</h3>
 
 <br><br><br>
 -
