@@ -18,15 +18,15 @@
 <div align="center">
  <a href="#about">About</a> •
  <a href="#features">Features</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autora">Autora</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#layout">Layout</a> • 
+ <a href="#how-to-run">How can you run this project?</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#Author">Author</a> • 
+ <a href="#license">License</a>
 </div>
 
 <br><br><br>
-<h2 id="about" align="center">About</h2>
+<h2 id="about" align="left">About</h2>
 
 <p align="left"> 
 Blog Pessoal desenvolvido para conectar as pessoas através de texto (diarios) e fotos,
@@ -34,7 +34,7 @@ Projeto desenvolvido no BootCamp da Generation Brasil.
 </p>
    
    
-<h2 id="features" align="center">Features</h2>
+<h2 id="features" align="left">Features</h2>
 
 - [x] Empresas ou usarios podem se cadastrar na plataforma web enviando:
 	- nome do usuario, email e senha.
@@ -50,7 +50,7 @@ Projeto desenvolvido no BootCamp da Generation Brasil.
 	- Etc. 
 
 
-<h2 id="layout" align="center">Layout</h2>
+<h2 id="layout" align="left">Layout</h2>
 
 O layout da aplicação está disponível no Figma:
 
@@ -60,7 +60,7 @@ veja o pdf:
 
 
 
-<h2 id="how-to-run" align="center">How can you run this project?</h2>
+<h2 id="how-to-run" align="left">How can you run this project?</h2>
 
 Este projeto é divido em duas partes:
 1. Backend (pasta server) 
@@ -68,7 +68,7 @@ Este projeto é divido em duas partes:
 
 💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
 
-<h3 id="min-requirements" align="center">Minimum Requirements</h3>
+<h3 id="min-requirements" align="left">Minimum Requirements</h3>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -76,7 +76,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 E um software para teste [Postman](https://www.postman.com/) outro para armazenar dados [MySql](https://www.mysql.com/)
 
 
-<h3 id="running-back-end" align="center">Running the Back End</h3>
+<h3 id="running-back-end" align="left">Running the Back End</h3>
 
 ```bash
 
@@ -105,7 +105,7 @@ $ pelo Postman
 # O status 201 indica que deu Bom!
 
 ```
-<h2 id="technologies" align="center">Technologies</h2>
+<h2 id="technologies" align="left">Technologies</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -120,7 +120,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 - Spring Segurity 
 - Swagger
 
-<h2 id="mentors" align="center">Project Mentors</h2>
+<h2 id="mentors" align="left">Project Mentors</h2>
 
 💛 Um super Obrigada 👏 para essa galera que me ensinou tudo o que está nesse código 💛 :)
 
@@ -133,7 +133,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 </tr>
 </table>
 
-<h2 id="contributing" align="center">Contributing</h2>
+<h2 id="contributing" align="left">Contributing</h2>
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
@@ -143,7 +143,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 
 ---
 
-<h2 id="Author" align="center">Author</h2>
+<h2 id="Author" align="left">Author</h2>
 
 <a href="https://larissamreis3.myportfolio.com/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79121527?s=400&u=0489c8337514ef5aecb1307f8cf402def7063810&v=4" width="100px;" alt=""/>
@@ -154,7 +154,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-Larissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissamreis/)](https://www.linkedin.com/in/larissamreis/) 
 [![Gmail Badge](https://img.shields.io/badge/-laroreis3@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:laroreis3@gmail.com)](mailto:laroreis3@gmail.com)
 
-<h2 id="license" align="center">License</h2>
+<h2 id="license" align="left">License</h2>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
