@@ -28,52 +28,45 @@
 <br><br><br>
 <h2 id="about" align="left">About</h2>
 
-<p align="left"> 
-Blog Pessoal desenvolvido para conectar as pessoas através de texto (diarios) e fotos,
-Projeto desenvolvido no BootCamp da Generation Brasil.
+<p align="left">
+Personal Blog/ Social Media, supports text and pictures.
+Developed in Generation Brazil's Bootcamp.
 </p>
    
    
 <h2 id="features" align="left">Features</h2>
 
-- [x] Empresas ou usarios podem se cadastrar na plataforma web enviando:
-	- nome do usuario, email e senha.
-- [x] Efetuar Login com chave de Segurança.
-- [x] Publicar postagens.
-- [x] Atualizar e Deletar as postagens.
-- [x] Filtrar pesquisas pelo:
-	- titulo e ordem de postagem. 
-- [x] Pode postar com categorias relacionadas.
+- [x] Companies or individuals can register themselvies in the web platform by sending: user name, email and password
+- [x] All Users are able to: signin, entering the password key, post text or pictures and update or delete their previous posts. 
+- [x] Users can make searchs filtering by:
+	-words in title or date
+- [x] There are many allowed categories about what people can post:
 	- Network
-	- Curiosidades
-	- Dicas
-	- Etc. 
-
+	- Trivia
+	- Tips
+	- Others
 
 <h2 id="layout" align="left">Layout</h2>
 
-O layout da aplicação está disponível no Figma:
-
-veja o pdf: 
-
-[BLOGPESSOAL.pdf](https://github.com/laroreis/blogPessoal/files/6305547/BLOGPESSOAL.pdf)
+<a id="coming-soon-2" href="#coming-soon-2"><b><i>🚀Coming soon...🚀</i></b></a>
 
 
 
 <h2 id="how-to-run" align="left">How can you run this project?</h2>
 
-Este projeto é divido em duas partes:
-1. Backend (pasta server) 
-2. Frontend (ainda em desenvolvimento)
+The project has actually 2 parts:
 
-💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
+1. Backend (server folder) 
+2. Frontend (coming soon)
+<br>
+👉 <i><b>Remember: the Front End needs the Back End fully running to be able to work</b></i> 👈
+<br>
 
 <h3 id="min-requirements" align="left">Minimum Requirements</h3>
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Before starting, make sure you have the folowing tools installed and working in your computer:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou o que eu usei [Eclipse](https://www.eclipse.org/downloads/)
-E um software para teste [Postman](https://www.postman.com/) outro para armazenar dados [MySql](https://www.mysql.com/)
+It's also strongly recommended that you have some professional code editor or IDE, such as [VSCode](https://code.visualstudio.com/) or [Eclipse](https://www.eclipse.org/downloads/), a test software, like [Postman](https://www.postman.com/) and a relational data base manager sfotware, like [MySql](https://www.mysql.com/)
 
 
 <h3 id="running-back-end" align="left">Running the Back End</h3>
