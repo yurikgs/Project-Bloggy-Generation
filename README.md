@@ -2,24 +2,22 @@
 	
  ![image](https://user-images.githubusercontent.com/38916533/144778112-b36eab6a-34ec-477b-bcb4-c8194a9590c8.png)
   <h1 align="center"> Blog Pessoal - <i>Generation Brazil</i> </h1>
-  <p align="center"><b>Status:<b/></p>
-  <h3 id="status" align="center">
+  <p align="center"><i>Status:</i></p>
+  <h4 id="status" align="center">
   🚀<b><a href="#status">Working on it... Coming soon!</a></b>🚀
-</h3>
+</h4>
+<br><br><br><br>
 
-<br><br><br>
--
   [![GitHub issues](https://img.shields.io/github/issues/yurikgs/Project_BlogPessoal-Generation?logo=GitHub)](https://github.com/yurikgs/Project_BlogPessoal-Generation/issues)
   [![GitHub license](https://img.shields.io/github/license/yurikgs/Project_BlogPessoal-Generation?color=3&logo=Github)](https://github.com/yurikgs/Project_BlogPessoal-Generation)
   [![GitHub forks](https://img.shields.io/github/forks/yurikgs/Project_BlogPessoal-Generation?logo=GitHub)](https://github.com/yurikgs/Project_BlogPessoal-Generation/network)
   [![GitHub stars](https://img.shields.io/github/stars/yurikgs/Project_BlogPessoal-Generation?logo=github)](https://github.com/yurikgs/Project_BlogPessoal-Generation/stargazers)
   ![GitHub last commit](https://img.shields.io/github/last-commit/yurikgs/Project_BlogPessoal-Generation)
--
- 
- 
+
+------------------------------------
 <div align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
@@ -27,14 +25,16 @@
  <a href="#user-content--licença">Licença</a>
 </div>
 
-## 📄 Sobre o Projeto
-<p align="center"> 
-	👁️ Blog Pessoal desenvolvido para conectar as pessoas através de texto (diarios) e fotos,
-   Projeto desenvolvido no BootCamp da Generation Brasil.
+<br><br><br>
+<h2 id="about" align="center">About</h2>
+
+<p align="left"> 
+Blog Pessoal desenvolvido para conectar as pessoas através de texto (diarios) e fotos,
+Projeto desenvolvido no BootCamp da Generation Brasil.
 </p>
    
    
-## ⚙️ Funcionalidades
+<h2 id="features" align="center">Features</h2>
 
 - [x] Empresas ou usarios podem se cadastrar na plataforma web enviando:
 	- nome do usuario, email e senha.
@@ -50,7 +50,7 @@
 	- Etc. 
 
 
-## 🎨 Layout
+<h2 id="layout" align="center">Layout</h2>
 
 O layout da aplicação está disponível no Figma:
 
@@ -60,7 +60,7 @@ veja o pdf:
 
 
 
-## 🚀 Como executar o projeto
+<h2 id="how-to-run" align="center">How can you run this project?</h2>
 
 Este projeto é divido em duas partes:
 1. Backend (pasta server) 
@@ -68,7 +68,7 @@ Este projeto é divido em duas partes:
 
 💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
 
-## ❗  Pré-requisitos
+<h3 id="min-requirements" align="center">Minimum Requirements</h3>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -76,7 +76,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 E um software para teste [Postman](https://www.postman.com/) outro para armazenar dados [MySql](https://www.mysql.com/)
 
 
-## 🎲 Rodando o Back End (servidor)
+<h3 id="running-back-end" align="center">Running the Back End</h3>
 
 ```bash
 
@@ -105,7 +105,7 @@ $ pelo Postman
 # O status 201 indica que deu Bom!
 
 ```
-## 🛠 Tecnologias
+<h2 id="technologies" align="center">Technologies</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -120,7 +120,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 - Spring Segurity 
 - Swagger
 
-## 👨‍💻 Contribuidores
+<h2 id="mentors" align="center">Project Mentors</h2>
 
 💛 Um super Obrigada 👏 para essa galera que me ensinou tudo o que está nesse código 💛 :)
 
@@ -133,7 +133,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 </tr>
 </table>
 
-## 💪 Como contribuir para o projeto
+<h2 id="contributing" align="center">Contributing</h2>
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
@@ -143,7 +143,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 
 ---
 
-## 👩 Autora
+<h2 id="Author" align="center">Author</h2>
 
 <a href="https://larissamreis3.myportfolio.com/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79121527?s=400&u=0489c8337514ef5aecb1307f8cf402def7063810&v=4" width="100px;" alt=""/>
@@ -154,7 +154,7 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-Larissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissamreis/)](https://www.linkedin.com/in/larissamreis/) 
 [![Gmail Badge](https://img.shields.io/badge/-laroreis3@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:laroreis3@gmail.com)](mailto:laroreis3@gmail.com)
 
-## 📝 Licença
+<h2 id="license" align="center">License</h2>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
