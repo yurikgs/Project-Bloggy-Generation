@@ -80,68 +80,71 @@ $ git clone https://github.com/yurikgs/Project_BlogPessoal-Generation.git
 $ cd blogPessoal
 
 # Install all dependencies
-$ on site https://start.spring.io/
-$ Verify each one in https://github.com/laroreis/blogPessoal/blob/main/blogPessoal/blogPessoal/pom.xml
+$ On site https://start.spring.io/
+$ Verify each one at https://github.com/yurikgs/Project_BlogPessoal-Generation/blob/main/BackEnd/blogpessoal/pom.xml
 
-# Altere as informações do banco de dados 
+# Add All database properties at file:
 $ application.properties
 
-# Execute a aplicação pelo Application.java
+# Run the Application using the file Application.java
 $ run 
 
-#Dicas importantes
-$ Veja se a tabela foi criada no Banco de Dados e insira algumas informações
+# Here are some running hints:
+$ Verify if the table was created in the database, and insert some information
 
-# O servidor inciará na porta: 8080 - acesse http://localhost:8080
-$ pelo Postman
+# The server will start in port: 8080 - access it in http://localhost:8080
+$ using Postman
 
-# O status 201 indica que deu Bom!
+# 201 Status means that everthing is All Right!
 
 ```
 <h2 id="technologies" align="left">Technologies</h2>
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following technologies were used to build this project: 
 
 - [Spring Boot](https://start.spring.io/)
 
 
-### Aplicações
+### Applications
 
-As seguintes aplicações e bibliotecas foram usadas no projeto:
+The following libraries and applications were used to build this project:
 
-- API Rest
+- Rest API
 - Spring Segurity 
 - Swagger
 
+<h2 id="contributing" align="left">Contributing</h2>
+
+	Think you can give us a hand? Come help us!
+
+1. **Fork** this project
+2. Create a new branch with your changes/contributions: `git checkout -b my-feature`
+3. Save the changes and create a commit message explaining how does your changes help us: `git commit -m "feature: My new feature"`
+4. Send us your changes: `git push origin my-feature`
+5. We will willingly analyse your pull requst. We know we always can improve our work!
+
+
 <h2 id="mentors" align="left">Project Mentors</h2>
 
-💛 Um super Obrigada 👏 para essa galera que me ensinou tudo o que está nesse código 💛 :)
+👏 Giving my deeper thanks to those people who mentored me and made this project able to come alive: 👏
+
 
 <table>
   <tr>
-	<td align="center"><a href="https://www.linkedin.com/in/lucas-capelotto-da-silva-43b26216a/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/57732522?v=4" width="100px;" alt="Lucao"/><br /><sub><b>Lucas Capeloto (Lucão)</b></sub></a><br /><a href="https://github.com/LucasCapSilva" title="Instrutor Generation Brasil">👨‍🚀</a></td> 
-	  <td align="center"><a href="https://www.linkedin.com/in/camillacleane/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C5603AQHv9qtp6ZPjdA/profile-displayphoto-shrink_800_800/0/1604110535275?e=1623888000&v=beta&t=6r5faAFI5Cg-Csf3NpM9G8FzsfffpPb3d-kMEikhJs0" width="100px;" alt="Camila"/><br /><sub><b>Camilla Cleane (Camis)</b></sub></a><br /><a href="https://github.com/camillacleanne" title="Instrutora Generation Brasil">👨‍🚀</a></td> 
-	   <td align="center"><a href="https://www.linkedin.com/in/elizabeth-hastings/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQGV_K5KF8CE7A/profile-displayphoto-shrink_800_800/0/1531913155612?e=1623888000&v=beta&t=VVaZvLFZCdzrxgC2QKwa9r3vAd7Ozjk2gU0llYRIzDM" width="100px;" alt="Liza"/><br /><sub><b>Elizabeth Hastings (Liza)</b></sub></a><br /><a href="https://www.linkedin.com/in/elizabeth-hastings/" title="Instrutora Generation Brasil">👨‍🚀</a></td> 
+	<td align="center"><a href="https://www.linkedin.com/in/gabriel-sousa-m-grande/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQGwXXBR0C0YrQ/profile-displayphoto-shrink_800_800/0/1594757046565?e=1644451200&v=beta&t=xEMwRcyxSiuT6ViATp4gykU3q1D2prQ4eTiF7KPH5XI" width="100px;" alt="Gabriel Sousa"/><br /><sub><b>Gabriel Sousa <br> <i>Instrutor de Jornada</i> </b></sub></a><br /><a href="https://github.com/sousagabriell" title="Instrutor de Jornada Generation Brasil">👨‍🚀</a></td> 
+	  <td align="center"><a href="https://www.linkedin.com/in/camillacleane/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQFuCk_tWw2oLw/profile-displayphoto-shrink_800_800/0/1633649644301?e=1644451200&v=beta&t=BnHo-Px4VEvlQWFmVn5GdPDxjtcg2thdgr_ZhfMc_C0" width="100px;" alt="Camila"/><br /><sub><b>Camilla Cleane (Camis) <br> <i>Instrutora de Jornada</i></b></sub></a><br /><a href="https://github.com/camillacleanne" title="Instrutora Generation Brasil">👨‍🚀</a></td> 
 	  
 </tr>
 </table>
-
-<h2 id="contributing" align="left">Contributing</h2>
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-5. Sempre podemos melhorar o programa!
 
 ---
 
 <h2 id="Author" align="left">Author</h2>
 
-<a href="https://larissamreis3.myportfolio.com/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79121527?s=400&u=0489c8337514ef5aecb1307f8cf402def7063810&v=4" width="100px;" alt=""/>
+<a href="https://www.linkedin.com/in/yuri-silva-09539713a/">
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQF1YAqVYl1J-w/profile-displayphoto-shrink_800_800/0/1576322800107?e=1644451200&v=beta&t=wmnMDEyJxIjbyrnfDC320KZO7ZtOM95CfdyaxB8OpEw" width="100px;" alt=""/>
  <br />
- <sub><b>Larissa(Laro) Reis</b></sub></a> <a href="https://larissamreis3.myportfolio.com/" title="LarissaReis">🚀</a>
+ <sub><b>Yuri Silva</b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva">💻</a>
  <br />
  
 [![Linkedin Badge](https://img.shields.io/badge/-Larissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissamreis/)](https://www.linkedin.com/in/larissamreis/) 
