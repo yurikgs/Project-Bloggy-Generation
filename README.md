@@ -144,14 +144,15 @@ The following libraries and applications were used to build this project:
 <a href="https://www.linkedin.com/in/yuri-silva-09539713a/">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQF1YAqVYl1J-w/profile-displayphoto-shrink_800_800/0/1576322800107?e=1644451200&v=beta&t=wmnMDEyJxIjbyrnfDC320KZO7ZtOM95CfdyaxB8OpEw" width="100px;" alt=""/>
  <br />
- <sub><b>Yuri Silva</b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva">💻</a>
+ <sub><b>💻 Yuri Silva 💻<br> <i>Java Developer</i></b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva"></a>
  <br />
  
-[![Linkedin Badge](https://img.shields.io/badge/-Larissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissamreis/)](https://www.linkedin.com/in/larissamreis/) 
-[![Gmail Badge](https://img.shields.io/badge/-laroreis3@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:laroreis3@gmail.com)](mailto:laroreis3@gmail.com)
+ <br><br>
+[![Linkedin Badge](https://img.shields.io/badge/Linkedin-Yuri%20Silva-blue)](https://www.linkedin.com/in/yuri-silva-09539713a/) 
+[![Gmail Badge](https://img.shields.io/badge/Mail-Yuri%20Silva-brightgreen)](mailto:yurikgs@outlook.com)
 
 <h2 id="license" align="left">License</h2>
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+This project is under [MIT](./LICENSE) license.
 
-Feito com ❤️ por Larissa Reis👋🏽 [Entre em contato!](https://www.linkedin.com/in/larissamreis/)
+Tech Responsible: Yuri Silva 👉 [Meet Me!](https://www.linkedin.com/in/yuri-silva-09539713a/)
