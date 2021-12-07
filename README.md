@@ -90,10 +90,10 @@ $ application.properties
 $ run 
 
 # Here are some running hints:
-$ Verify if the table was created in the database, and insert some information
+# Verify if table is created in the database, and insert some information
 
 # The server will start in port: 8080 - access it in http://localhost:8080
-$ using Postman
+# using Postman
 
 # 201 Status means that everthing is All Right!
 
@@ -124,35 +124,46 @@ The following libraries and applications were used to build this project:
 5. We will willingly analyse your pull requst. We know we always can improve our work!
 
 
-<h2 id="mentors" align="left">Project Mentors</h2>
+<h2 id="mentors" align="center">Project Mentors</h2>
 
-👏 Giving my deeper thanks to those people who mentored me and made this project able to come alive: 👏
+<br>
 
+<p align = "center">👏 Giving my deeper thanks to those people who mentored me and made this project able to come alive: 👏</p>
 
-<table>
+<br><br>
+
+<table align = "center">
   <tr>
 	<td align="center"><a href="https://www.linkedin.com/in/gabriel-sousa-m-grande/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQGwXXBR0C0YrQ/profile-displayphoto-shrink_800_800/0/1594757046565?e=1644451200&v=beta&t=xEMwRcyxSiuT6ViATp4gykU3q1D2prQ4eTiF7KPH5XI" width="100px;" alt="Gabriel Sousa"/><br /><sub><b>Gabriel Sousa <br> <i>Instrutor de Jornada</i> </b></sub></a><br /><a href="https://github.com/sousagabriell" title="Instrutor de Jornada Generation Brasil">👨‍🚀</a></td> 
-	  <td align="center"><a href="https://www.linkedin.com/in/camillacleane/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQFuCk_tWw2oLw/profile-displayphoto-shrink_800_800/0/1633649644301?e=1644451200&v=beta&t=BnHo-Px4VEvlQWFmVn5GdPDxjtcg2thdgr_ZhfMc_C0" width="100px;" alt="Camila"/><br /><sub><b>Camilla Cleane (Camis) <br> <i>Instrutora de Jornada</i></b></sub></a><br /><a href="https://github.com/camillacleanne" title="Instrutora Generation Brasil">👨‍🚀</a></td> 
+	<td align="center"><a href="https://www.linkedin.com/in/camillacleane/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQFuCk_tWw2oLw/profile-displayphoto-shrink_800_800/0/1633649644301?e=1644451200&v=beta&t=BnHo-Px4VEvlQWFmVn5GdPDxjtcg2thdgr_ZhfMc_C0" width="100px;" alt="Camila"/><br /><sub><b>Camilla Cleane (Camis) <br> <i>Instrutora de Jornada</i></b></sub></a><br /><a href="https://github.com/camillacleanne" title="Instrutora Generation Brasil">👨‍🚀</a></td> 
 	  
 </tr>
 </table>
 
+<br>
 ---
 
-<h2 id="Author" align="left">Author</h2>
-
+<h2 id="Author" align="center">Author</h2>
+<div align="center">
+	<br><br>
 <a href="https://www.linkedin.com/in/yuri-silva-09539713a/">
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQF1YAqVYl1J-w/profile-displayphoto-shrink_800_800/0/1576322800107?e=1644451200&v=beta&t=wmnMDEyJxIjbyrnfDC320KZO7ZtOM95CfdyaxB8OpEw" width="100px;" alt=""/>
- <br />
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQF1YAqVYl1J-w/profile-displayphoto-shrink_800_800/0/1576322800107?e=1644451200&v=beta&t=wmnMDEyJxIjbyrnfDC320KZO7ZtOM95CfdyaxB8OpEw" width="150px;" alt=""/>
+ <br>
+	
  <sub><b>💻 Yuri Silva 💻<br> <i>Java Developer</i></b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva"></a>
- <br />
- 
  <br><br>
-[![Linkedin Badge](https://img.shields.io/badge/Linkedin-Yuri%20Silva-blue)](https://www.linkedin.com/in/yuri-silva-09539713a/) 
-[![Gmail Badge](https://img.shields.io/badge/Mail-Yuri%20Silva-brightgreen)](mailto:yurikgs@outlook.com)
+	<a href="https://www.linkedin.com/in/yuri-silva-09539713a/"> <img src="https://img.shields.io/badge/Linkedin-Yuri%20Silva-blue"></a>
+	<a href="mailto:yurikgs@outlook.com"> <img src="https://img.shields.io/badge/Mail-Yuri%20Silva-brightgreen"></a>
+ <div>
+	 
+ <br><br>
+<h2 id="license" align="center">License</h2>
 
-<h2 id="license" align="left">License</h2>
-
+<div align="center">
 This project is under [MIT](./LICENSE) license.
 
 Tech Responsible: Yuri Silva 👉 [Meet Me!](https://www.linkedin.com/in/yuri-silva-09539713a/)
+</div>
+	
+	
+	
