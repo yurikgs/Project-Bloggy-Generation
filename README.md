@@ -162,7 +162,7 @@ The following libraries and applications were used to build this project:
 <div align="center">
 This project is under [MIT](./LICENSE) license.
 
-Tech Responsible: Yuri Silva 👉 [Meet Me!](https://www.linkedin.com/in/yuri-silva-09539713a/)
+Tech Responsible: Yuri Silva 👉 [Meet Me!](https://www.linkedin.com/in/yuri-silva-dev/)
 </div>
 	
 	
