@@ -28,19 +28,19 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
        // DAS CLASSES OU PROPRIEDADES E QUE DEFINEM 
        // COMPORTAMENTOS PARA TAIS"
 @Entity
-@Table(name = "tb_postagens")                  //O contepudo dessa classe será reconhecido como uma tabela (Table)
+@Table(name = "tb_postagens")                 //O contepudo dessa classe será reconhecido como uma tabela (Table)
 public class Postagem {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // @GeneratedValue liga o auto incremented
 	private long id;   // sempre long, tipo bigint
 	
-	@NotBlank              // o  campo "message" vai aparecer quando houver algum erro, por exemplo, se o usuário tentar enviar o campo vazio (null)
-	@Size(min = 5, max = 100, message= "O atributo devve conter no mínimo 5 caracteres")
+	@NotBlank(message="O atributo deve possuir algum coteúdo, por favor digite alguma coisa")           // o  campo "message" vai aparecer quando houver algum erro, por exemplo, se o usuário tentar enviar o campo vazio (null)
+	@Size(min = 5, max = 100, message= "O atributo deve conter no mínimo 5 caracteres")
 	private String titulo;
 
-	@NotBlank
-	@Size(min = 10, max = 500, message= "O atributo devve conter no mínimo 10 caracteres")
+	@NotBlank(message="O atributo deve possuir algum coteúdo, por favor digite alguma coisa")
+	@Size(min = 10, max = 500, message= "O atributo deve conter no mínimo 10 caracteres")
 	private String texto;
 	
 	

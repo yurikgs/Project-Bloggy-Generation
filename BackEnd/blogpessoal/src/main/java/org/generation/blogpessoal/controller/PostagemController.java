@@ -50,13 +50,18 @@ public class PostagemController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(postagem));
 	}
 	
+	//  FIX THE CODE HERE <-------------------------
+	// ADD SOME CONSTRAINT CODE TO AVOID PUT AND DELETE TO ACCES NONEXISTENT IDS
 	@PutMapping
 	public ResponseEntity<Postagem> put(@RequestBody Postagem postagem) {
-		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(postagem));
+		
+		
+		return ResponseEntity.status(HttpStatus.OK).body(repository.save(postagem));
 	}
 	
 	@DeleteMapping("/{id}")
 	public void delete(@PathVariable long id) {
+		
 		repository.deleteById(id);
 	}
 	}

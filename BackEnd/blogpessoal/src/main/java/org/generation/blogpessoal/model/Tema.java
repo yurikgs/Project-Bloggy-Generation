@@ -22,7 +22,7 @@ public class Tema {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@NotBlank
+	@NotBlank(message="O atributo deve possuir algum coteúdo, por favor digite alguma coisa")
 	@Size(min = 2, max = 70, message = "Por favor insira um tema que tenha de 2 a 70 caracteres.")
 	private String descricao;
 	
