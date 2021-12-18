@@ -1,16 +1,29 @@
 package org.generation.blogpessoal.model;
 
-public class UserLogin {
+public class UsuarioLogin {
+	
+	/**
+	 * A Classe UsuarioLogin não terá nenhuma annotation porque ela
+	 * não irá gerar uma tabela no Banco de Dados.
+	 * 
+	 * A principal função desta classe é servir de apoio ao processo
+	 * de login na api.
+	 * 
+	 * Características: tem os mesmos atributos da model Usuario, menos as chaves
+	 * estrangeira e + um atributo de 'token' para guardar a senha encriptada.
+	 */
 	
 	private long id;
 
 	private String nome;
 	
-	private String nickname;
+	private String email;
 	
 	private String senha;
 	
 	private String token;
+	
+	
 
 	public long getId() {
 		return id;
@@ -28,20 +41,12 @@ public class UserLogin {
 		this.nome = nome;
 	}
 	
-	public String getNickname() {
-		return nickname;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setNickname(String nickname) {
-		this.nickname = nickname;
-	}
-
-	public String getUsuario() {
-		return nickname;
-	}
-
-	public void setUsuario(String usuario) {
-		this.nickname = usuario;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getSenha() {

@@ -35,12 +35,12 @@ public class Postagem {
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // @GeneratedValue liga o auto incremented
 	private long id;   // sempre long, tipo bigint
 	
-	@NotBlank(message="O atributo deve possuir algum coteúdo, por favor digite alguma coisa")           // o  campo "message" vai aparecer quando houver algum erro, por exemplo, se o usuário tentar enviar o campo vazio (null)
-	@Size(min = 5, max = 100, message= "O atributo deve conter no mínimo 5 caracteres")
+	@NotBlank(message="O atributo título é obrigatório")           // o  campo "message" vai aparecer quando houver algum erro, por exemplo, se o usuário tentar enviar o campo vazio (null)
+	@Size(min = 5, max = 100, message= "O atributo deve conter entre 5 e 100 caracteres.")
 	private String titulo;
 
-	@NotBlank(message="O atributo deve possuir algum coteúdo, por favor digite alguma coisa")
-	@Size(min = 10, max = 500, message= "O atributo deve conter no mínimo 10 caracteres")
+	@NotBlank(message="O atributo texto é obrigatório")
+	@Size(min = 10, max = 1000, message= "O atributo deve conter entre 10 e 1000 caracteres")
 	private String texto;
 	
 	
@@ -55,7 +55,19 @@ public class Postagem {
 	@JsonIgnoreProperties("postagens")
 	private Tema tema;
 	
+	@ManyToOne
+	@JsonIgnoreProperties("postagens")
+	private Usuario usuario;
 	
+	
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
 	public Tema getTema() {
 		return tema;
 	}
