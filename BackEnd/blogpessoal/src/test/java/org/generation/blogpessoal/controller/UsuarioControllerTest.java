@@ -23,7 +23,7 @@ import org.springframework.http.ResponseEntity;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-@TestMethodOrder(MethodOrderer.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class) 
 public class UsuarioControllerTest {
 
 	@Autowired
@@ -78,26 +78,67 @@ public class UsuarioControllerTest {
 		assertEquals(HttpStatus.BAD_REQUEST, resposta.getStatusCode());
 	}
 	
+//	@Test
+//	@Order(3)
+//	@DisplayName("Alterar um Usuário")
+//	public void deveAtualizarUmUsuario() {
+//
+//		Optional<Usuario> usuarioCreate = usuarioService
+//				.cadastrarUsuario(new Usuario(0L, 
+//						"Peter Parker", "Spider@Man", "aracnofobia",  "foto"));
+//
+//		Usuario usuarioUpdate = new Usuario(usuarioCreate.get().getId(), "Bruce Banner",
+//				"brucebanner@hulk.com", "hulk_esmaga", "foto");
+//
+//		HttpEntity<Usuario> requisicao = new HttpEntity<Usuario>(usuarioUpdate);
+//
+//		ResponseEntity<Usuario> resposta = testRestTemplate.withBasicAuth("root", "root")
+//				.exchange("/usuarios/atualizar", HttpMethod.PUT, requisicao, Usuario.class);
+//
+//		assertEquals(HttpStatus.OK, resposta.getStatusCode());
+//		assertEquals(usuarioUpdate.getNome(), resposta.getBody().getNome());
+//		assertEquals(usuarioUpdate.getEmail(), resposta.getBody().getEmail());
+//	}
+
+	
 	@Test
 	@Order(3)
 	@DisplayName("Alterar um Usuário")
 	public void deveAtualizarUmUsuario() {
 
-		Optional<Usuario> usuarioCreate = usuarioService
-				.cadastrarUsuario(new Usuario(0L, 
-						"Chapolin", "Ch@polin", "senhaforte",  "foto"));
+		Optional<Usuario> usuarioCreate = usuarioService.cadastrarUsuario(new Usuario(0L, 
+			"Peter Parker", "spider@man.com", "aracnofobi@", "foto"));
 
-		Usuario usuarioUpdate = new Usuario(usuarioCreate.get().getId(), "Bruce Banner",
-				"brucebanner@hulk.com", "senhaforte", "foto");
-
+		Usuario usuarioUpdate = new Usuario(usuarioCreate.get().getId(), 
+				"Peter Parker", "spider@man.com", "aracnofobi@", "foto");
+		
 		HttpEntity<Usuario> requisicao = new HttpEntity<Usuario>(usuarioUpdate);
 
-		ResponseEntity<Usuario> resposta = testRestTemplate.withBasicAuth("root", "root")
-				.exchange("/usuarios/atualizar", HttpMethod.PUT, requisicao, Usuario.class);
+		ResponseEntity<Usuario> resposta = testRestTemplate
+			.withBasicAuth("root", "root")
+			.exchange("/usuarios/atualizar", HttpMethod.PUT, requisicao, Usuario.class);
 
 		assertEquals(HttpStatus.OK, resposta.getStatusCode());
 		assertEquals(usuarioUpdate.getNome(), resposta.getBody().getNome());
 		assertEquals(usuarioUpdate.getEmail(), resposta.getBody().getEmail());
+	}
+
+	@Test
+	@Order(4)
+	@DisplayName("Listar todos os Usuários")
+	public void deveMostrarTodosUsuarios() {
+
+		usuarioService.cadastrarUsuario(new Usuario(0L, 
+			"Carol Danvers", "captain@marvel.com", "thorIsWeak", "foto"));
+		
+		usuarioService.cadastrarUsuario(new Usuario(0L, 
+			"Bruce Wayne", "batman@forever.com", "noNeedSuperPower", "foto"));
+
+		ResponseEntity<String> resposta = testRestTemplate
+			.withBasicAuth("root", "root")
+			.exchange("/usuarios/all", HttpMethod.GET, null, String.class);
+
+		assertEquals(HttpStatus.OK, resposta.getStatusCode());
 	}
 
 }
