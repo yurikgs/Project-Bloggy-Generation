@@ -1,7 +1,8 @@
 <p align="center">
-	
- ![image](https://user-images.githubusercontent.com/38916533/144778112-b36eab6a-34ec-477b-bcb4-c8194a9590c8.png)
-  <h1 align="center"> Blog Pessoal - <i>Generation Brazil</i> </h1>
+
+
+ ![COVER](https://user-images.githubusercontent.com/38916533/147122563-0d168092-403f-483e-9a2c-553ea831d184.png)
+  <h1 align="center"> Bloggy - <i>Generation Brazil</i> </h1>
   <p align="center"><i>Status:</i></p>
   <h4 id="status" align="center">
   🚀<b><a href="#status">Working on it... Coming soon!</a></b>🚀
@@ -29,7 +30,7 @@
 <h2 id="about" align="left">About</h2>
 
 <p align="left">
-Personal Blog/ Social Media, supports text and pictures.
+Personal Blog/ Social Network, supports text and pictures.
 Developed in Generation Brazil's Bootcamp.
 </p>
    
