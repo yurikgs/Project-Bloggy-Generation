@@ -2,9 +2,13 @@
 
 
  ![COVER](https://user-images.githubusercontent.com/38916533/147122563-0d168092-403f-483e-9a2c-553ea831d184.png)
+	
   <h1 align="center"> Bloggy - <i>Generation Brazil</i> </h1>
   <p align="center"><i>Status:</i></p>
+  <p align="center"><b>Back End:</b> <i><a href="https://bloggyme.herokuapp.com/">--> Test me in Heroku!</a> <br><b>username: root paswword: root</b></i></p>
   <h4 id="status" align="center">
+	<br>
+  <b>Front End:</b> <br>
   🚀<b><a href="#status">Working on it... Coming soon!</a></b>🚀
 </h4>
 <br><br><br><br>
