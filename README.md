@@ -152,9 +152,10 @@ The following libraries and applications were used to build this project:
 <div align="center">
 	<br><br>
 <a href="https://www.linkedin.com/in/yuri-silva-09539713a/">
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQF1YAqVYl1J-w/profile-displayphoto-shrink_800_800/0/1576322800107?e=1644451200&v=beta&t=wmnMDEyJxIjbyrnfDC320KZO7ZtOM95CfdyaxB8OpEw" width="150px;" alt=""/>
+	<img align="center" src="https://user-images.githubusercontent.com/38916533/147866404-b44f42c6-5e67-47e2-91bb-ffa5281d444e.jpg" alt="Yuri Silva" width="150px;" />
  <br>
 	
+
  <sub><b>💻 Yuri Silva 💻<br> <i>Java Developer</i></b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva"></a>
  <br><br>
 	<a href="https://www.linkedin.com/in/yuri-silva-09539713a/"> <img src="https://img.shields.io/badge/Linkedin-Yuri%20Silva-blue"></a>
