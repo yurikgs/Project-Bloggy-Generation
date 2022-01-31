@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto d-flex align-items-center">
+            <li class="nav-item active">
+                <img src="{{foto}}" alt="profile-img" width="50px" height="50px" class="img-fluid rounded-circle">
+            </li>
+            <li class="nav-item pl-4">
+                <p class="m-0 font-weight-bold text-white fs-16">Bem vindo, {{nome}}</p>
+            </li>
+            <a [routerLink]="['/user-edit', id]">
+                <li class="nav-item pl-3">
+                    <p class="m-0 text-white fs-13"><i class="m-0 fa fa-pencil-square-o" aria-hidden="true"></i> </p>
+                </li>
+            </a>
+
+        </ul>
+        <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <li class="nav-item">
+                <a (click)='sair()' href="#" class="m-0 font-weight-bold text-white fs-16">Sair <i class="pl-1 fa fa-sign-out" aria-hidden="true"></i>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>

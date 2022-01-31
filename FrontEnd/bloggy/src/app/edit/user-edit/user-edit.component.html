@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row col-md-12 d-flex justify-content-center align-items-center">
+
+                <div class="col-md-10">
+                    <h1 class="text-center text-secondary">Atualizar perfil de Usuário</h1>
+
+                    <div class="form-group">
+                        <label for="usuario">Nome:</label>
+                        <input [(ngModel)]='user.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="foto">Foto:</label>
+                        <input [(ngModel)]='user.foto' type="text" class="form-control" name="foto" id="foto" placeholder="Cole aqui o link da sua foto">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usuario">Email de usuário:</label>
+                        <input [(ngModel)]='user.email' class="form-control" type="email" name="usuario" id="usuario" placeholder="Digite seu email de usuário">
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="senha">Senha:</label>
+                            <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="confirmSenha">Confirmar Senha:</label>
+                            <input [(ngModel)]='user.senha' class="form-control" type="password" name="confirmSenha" id="confirmSenhas" placeholder="Confirme sua senha">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tipoDeUsuario">Tipo de Usuário</label>
+                        <select class="form-control" name="tipoDeUsuario" id="tipoDeUsuario" (change)='tipoUser($event)'>
+                  <option>Selecione um tipo de usuário:</option>
+                  <option value="Normal">Comum</option>
+                  <option value="Admin">Admin</option>
+                </select>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-5 mb-5">
+                        <button class="btn btn-danger mr-4" type="submit" routerLink="/inicio">Cancelar</button>
+                        <button class="btn btn-success" type="submit" (click)='atualizar()'>Atualizar</button>
+                    </div>
+                    <!--
+                    <hr class="mt-4 mb-2">
+                    <p class="text-center">Já tem uma conta?<a routerLink="/entrar"> Entre</a></p> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

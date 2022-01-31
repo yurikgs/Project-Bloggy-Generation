@@ -1,0 +1,52 @@
+<div class="container-fluid">
+    <div class="row bg-secondary">
+        <div class="text-white col-md-12">
+            <a routerLink='/inicio' class="text-white text-left">
+                <i class="fa fa-angle-double-left" aria-hidden="true"></i> início
+            </a>
+            <h1 class="fs-54 text-center mb-5">Temas</h1>
+            <h5 class="fs-18 text-center mb-3">Veja aqui todos os temas cadastrados ou cadastre um novo:</h5>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3">
+                    <div class="form-group mb-4">
+                        <input [(ngModel)]='tema.descricao' type="text" class="form-control" id="descricao" placeholder="Digite o seu tema">
+                    </div>
+                    <div class="d-flex justify-content-center mb-5">
+                        <button (click)='cadastrar()' class="btn btn-light">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <h2 class="text-center">Todos os temas</h2>
+        </div>
+    </div>
+    <div class="row mt-3 mb5 d-flex justify-content-center">
+        <div class="col-md-6">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Modificações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let item of listaTemas'>
+                        <th>{{item.id}}</th>
+                        <td>{{item.descricao}}</td>
+                        <td class="d-flex justify-content-end">
+                            <button class="btn btn-info mr-2" [routerLink]="['/tema-edit', item.id]">Editar</button>
+                            <button class="btn btn-danger" [routerLink]="['/tema-delete', item.id]">Apagar</button>
+                        </td>
+                        <!-- [routerLink]="['/tema-edit', item.id]"  =>> manda o id na uri, como parametro: property biding -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

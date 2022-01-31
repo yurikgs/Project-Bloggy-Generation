@@ -1,0 +1,122 @@
+<div class="container-fluid">
+    <div class="row bg-secondary text-white d-flex align-items-center">
+        <div class="col-md-6">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="fs-54">Seja bem vindo(a)!</h1>
+                    <h5 class="fs-18">No que você está pensando hoje?</h5>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-3 mb-5">
+                <div class="col-md-8 d-flex justify-content-around">
+                    <button class="btn btn-light" data-toggle="modal" data-target="#nova-postagem">Nova Postagem</button>
+                    <a href="#postagens" class="btn btn-outline-light">Ver Postagens</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+            <img class="img-fluid" src="https://i.imgur.com/h3HZqe2.png" alt="bloogy ambiente social" width="500" height="500">
+        </div>
+    </div>
+</div>
+<div class="container mb5 mt-5" id="postagens">
+    <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active text-secondary font-weight-bold" id="todas-as-postagens-tab" data-toggle="tab" href="#todas-as-postagens" role="tab" aria-controls="#todas-as-postagens" aria-selected="true">Todas as Postagens</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+            <a class="nav-link  text-secondary font-weight-bold" id="minhas-postagens-tab" data-toggle="tab" href="#minhas-postagens" role="tab" aria-controls="minhas-postagens" aria-selected="false" (click)='findByIdUser()'>Minhas Postagens</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+            <a class="nav-link text-secondary font-weight-bold" id="postagens-por-tema-tab" data-toggle="tab" href="#postagens-por-tema" role="tab" aria-controls="postagens-por-tema" aria-selected="false">Postagens por Tema</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="todas-as-postagens" role="tabpanel" aria-labelledby="todas-as-postagens-tab">
+
+            <div class="card-columns mt-5">
+
+                <div class="card text-center" *ngFor='let item of listaPostagens'>
+                    <div class="card-body">
+                        <h5 class="card-title m-0">{{item.titulo}}</h5>
+                        <small class="text-muted">{{item.tema.descricao}}</small>
+                        <p class="card-text mt-3">{{item.texto}}</p>
+                        <p class="card-text"><small class="text-muted">{{item.date | date: 'dd/MM/yyyy'}} às {{item.date | date: 'HH:mm'}}</small></p>
+                        <p class="card-text"><small class="text-muted">{{item.usuario.nome}}</small></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="minhas-postagens" role="tabpanel" aria-labelledby="minhas-postagens-tab">
+
+
+            <div class="card-columns mt-5">
+
+                <div class="card text-center" *ngFor='let item of user.postagens'>
+                    <div class="card-body">
+                        <h5 class="card-title m-0">{{item.titulo}}</h5>
+                        <small class="text-muted">{{item.tema.descricao}}</small>
+                        <p class="card-text mt-3">{{item.texto}}</p>
+                        <p class="card-text"><small class="text-muted">{{item.date | date: 'dd/MM/yyyy'}} às {{item.date | date: 'HH:mm'}}</small></p>
+
+                        <a class="text-info mr-3" [routerLink]="['/postagem-edit', item.id]">Editar</a>
+                        <a class="text-danger" [routerLink]="['/postagem-delete', item.id]">Apagar</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="tab-pane fade" id="postagens-por-tema" role="tabpanel" aria-labelledby="postagens-por-tema-tab">Postagens por Tema</div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="nova-postagem" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Nova Postagem</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="titulo">Titulo</label>
+                    <input [(ngModel)]='postagem.titulo' type="text" class="form-control" id="titulo" placeholder="Digite o Título da Mensagem">
+                </div>
+                <div class="form-group">
+                    <label for="texto">Texto</label>
+                    <textarea [(ngModel)]='postagem.texto' class="form-control" name="texto" id="texto" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink='/temas'>cadastre um novo</a></label>
+                    <select name="tema" id="tema" class="form-control" [(ngModel)]='idTema' (change)='findByIdTema()'>
+                      <option *ngFor='let item of listaTemas' value="{{item.id}}">{{item.descricao}}</option>
+
+                    </select>
+
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-success" (click)='publicar()' data-dismiss="modal">Publicar</button>
+            </div>
+        </div>
+    </div>
+</div>
