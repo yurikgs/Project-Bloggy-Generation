@@ -2,9 +2,13 @@
 
 
  ![COVER](https://user-images.githubusercontent.com/38916533/147122563-0d168092-403f-483e-9a2c-553ea831d184.png)
+	
   <h1 align="center"> Bloggy - <i>Generation Brazil</i> </h1>
   <p align="center"><i>Status:</i></p>
+  <p align="center"><b>Back End:</b> <i><a href="https://bloggyme.herokuapp.com/">--> Test me in Heroku!</a> <br><b>username: root paswword: root</b></i></p>
   <h4 id="status" align="center">
+	<br>
+  <b>Front End:</b> <br>
   🚀<b><a href="#status">Working on it... Coming soon!</a></b>🚀
 </h4>
 <br><br><br><br>
@@ -148,9 +152,10 @@ The following libraries and applications were used to build this project:
 <div align="center">
 	<br><br>
 <a href="https://www.linkedin.com/in/yuri-silva-09539713a/">
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQF1YAqVYl1J-w/profile-displayphoto-shrink_800_800/0/1576322800107?e=1644451200&v=beta&t=wmnMDEyJxIjbyrnfDC320KZO7ZtOM95CfdyaxB8OpEw" width="150px;" alt=""/>
+	<img align="center" src="https://user-images.githubusercontent.com/38916533/147866404-b44f42c6-5e67-47e2-91bb-ffa5281d444e.jpg" alt="Yuri Silva" width="150px;" />
  <br>
 	
+
  <sub><b>💻 Yuri Silva 💻<br> <i>Java Developer</i></b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva"></a>
  <br><br>
 	<a href="https://www.linkedin.com/in/yuri-silva-09539713a/"> <img src="https://img.shields.io/badge/Linkedin-Yuri%20Silva-blue"></a>
