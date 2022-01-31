@@ -5,7 +5,7 @@
 	
   <h1 align="center"> Bloggy - <i>Generation Brazil</i> </h1>
   <p align="center"><i>Status:</i></p>
-  <p align="center"><b>Back End:</b> <i><a href="https://bloggyme.herokuapp.com/">--> Test me in Heroku!</a> <br><b>username: root paswword: root</b></i></p>
+  <p align="center"><b>Back End:</b> <i><a href="https://bloggyme.herokuapp.com/">--> Test me on Heroku!</a> <br><b>username: root paswword: root</b></i></p>
   <h4 id="status" align="center">
 	<br>
   <b>Front End:</b> <br>
